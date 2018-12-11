@@ -79,3 +79,12 @@ body {
 	border-top: black 8px solid;
 	border-bottom: 4px #6f6f6f solid;
 }
+body {
+	-webkit-user-select: none;
+}
+body {
+     -webkit-tap-highlight-color: transparent;
+}
+body {
+			-webkit-touch-callout: none;
+}
