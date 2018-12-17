@@ -10,5 +10,5 @@ A very simple calculator, built as a Progressive Web App.
 
 **Version 1.0.0**
 
-- insert changes here
-Fix Clear Memory
+- fix clear memory
+- fix loading javascript file
