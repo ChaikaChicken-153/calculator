@@ -81,5 +81,17 @@ var Calculator = {
 		setTimeout(function() {
 			document.getElementById("d").value = temp;
 		}, 1000);
+	},
+	square: function() {
+		var display = document.getElementById("d").value;
+		var answer = Math.pow(display, 2);
+		this.display(answer);
+		console.log(display.split(''));
+	},
+	squareRoot: function() {
+		var d = document.getElementById("d").value;
+		var a = Math.sqrt(d);
+		this.display(a);
+		console.log(display.split(''));
 	}
 }
