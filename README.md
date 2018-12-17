@@ -12,3 +12,15 @@ A very simple calculator, built as a Progressive Web App.
 
 - fix clear memory
 - fix loading javascript file
+
+**Version 1.1.1**
+- PI
+- square
+- squareRoot
+- exponent
+- parenthesis
+
+**Version 2.0.0**
+- cube
+- e
+- color
