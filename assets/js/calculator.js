@@ -93,5 +93,11 @@ var Calculator = {
 		var a = Math.sqrt(d);
 		this.display(a);
 		console.log(display.split(''));
+	},
+	cube: function() {
+		var display = document.getElementById("d").value;
+		var answer = Math.pow(display, 3);
+		this.display(answer);
+		console.log(display.split(''));
 	}
 }
